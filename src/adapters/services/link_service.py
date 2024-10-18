@@ -12,7 +12,7 @@ class LinkService:
         type_tiny = pyshorteners.Shortener()
         short_link = type_tiny.tinyurl.short(original_link)
         return short_link
-    
+
     def build_link(self, original_link: str):
         short_link = self.shorten_link(original_link = original_link)
         new_link = LinksModel(

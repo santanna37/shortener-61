@@ -2,7 +2,6 @@
 from sqlalchemy.orm import sessionmaker
 import sqlite3
 import os
-from src.adapters.database.models.links_models import LinkModel
 from sqlalchemy import create_engine
 from .config.base import Base
 

@@ -4,6 +4,8 @@ disable=
       W0012,
       E0611,
       C0411,
+      W0311,
+      W0707,
       C0412,
       C0116, # missing-function-docstring
       E0015,

@@ -14,7 +14,6 @@ class LinkRepository:
         with self.database as db:
             db.add(link)
 
-
     def get_link(self, original_link):
         with self.database as db:
             return db.get(LinksModel,original_link = original_link)
